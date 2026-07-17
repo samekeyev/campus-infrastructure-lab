@@ -1,0 +1,25 @@
+# Environment files and secrets
+.env
+.env.*
+secrets/
+*.key
+*.pem
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Test artifacts
+.coverage
+.pytest_cache/
